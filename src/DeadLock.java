@@ -41,11 +41,9 @@ public class DeadLock {
             }
         });
 
-        // Start both threads
         thread1.start();
         thread2.start();
 
-        // Wait for both threads to finish
         try {
             thread1.join();
             thread2.join();
@@ -54,13 +52,4 @@ public class DeadLock {
         }
     }
 
-    /*
-    In this example, we have two threads and two locks: lock1 and lock2.
-    The first thread acquires lock1 and then attempts to acquire lock2.
-    The second thread acquires lock2 and then attempts to acquire lock1.
-    Both threads try to acquire the locks in different orders, resulting in a circular wait, causing a deadlock.
-
-    To avoid deadlocks, you can implement strategies such as acquiring locks in the same order in all threads,
-    using a timeout while acquiring locks, or using the tryLock() method from the java.util.concurrent.locks package.
-     */
 }
