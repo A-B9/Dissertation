@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dissertation.iml" filepath="$PROJECT_DIR$/Dissertation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecursiveActionPractice/RecursiveActionPractice.iml" filepath="$PROJECT_DIR$/RecursiveActionPractice/RecursiveActionPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadTraining/ThreadTraining.iml" filepath="$PROJECT_DIR$/ThreadTraining/ThreadTraining.iml" />
+    </modules>
+  </component>
+</project>
